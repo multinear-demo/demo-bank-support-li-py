@@ -4,7 +4,7 @@ project:
   description: Demo project
 
 tasks:
-  - input: How can I activate my new credit card without a PIN?
+  - input: I received my credit card today but there's no PIN with it. What should I do to start using it?
     id: activate-credit-card-no-pin
     checklist: |-
       - Answer outlines the process for activating a credit card without an existing PIN.
@@ -13,7 +13,7 @@ tasks:
       - Answer provides alternatives such as visiting a branch or contacting support if online methods are unavailable.
     min_score: 0.8
 
-  - input: What steps do I need to follow to pay my credit card bill online?
+  - input: need help paying off my card balance online please
     id: pay-credit-card-bill-online
     checklist: |-
       - Answer explains the process of logging into Online Banking with credentials.
@@ -23,7 +23,7 @@ tasks:
       - Answer mentions reviewing and confirming the payment, and receiving a confirmation email.
     min_score: 0.8
 
-  - input: I need to update my mobile number and change my security questions. How do I do both?
+  - input: "how do i change my phone # in the system? also wanna update my security questions while im at it"
     id: update-mobile-and-security-questions
     checklist: |-
       - Answer provides steps to log into Online Banking with username and password.
@@ -34,7 +34,7 @@ tasks:
 #      - Answer advises contacting customer service if any verification steps cannot be completed online.
     min_score: 0.7
 
-  - input: How do I set up an international money transfer, including selecting the currency and verifying exchange rates?
+  - input: need to send money to my sister in germany... never done this before, how does it work?
     id: setup-international-money-transfer
     checklist: |-
       - Answer details logging into Online Banking securely.
@@ -46,7 +46,7 @@ tasks:
 #      - Answer may suggest downloading and emailing an International Money Transfer Request form as an alternative.
     min_score: 0.8
 
-  - input: Can you guide me through managing my automatic payments and adding a new payee to my account?
+  - input: how do i set up autopay for my bills? also need to add my landlord as a payee
     id: manage-automatic-payments-add-payee
     checklist: |-
       - Answer explains logging into Online Banking or the mobile app securely.
