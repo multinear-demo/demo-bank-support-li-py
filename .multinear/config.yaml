@@ -11,7 +11,7 @@ tasks:
       - Answer mentions logging into Online Banking or the mobile app to access the 'Cards' section.
       - Answer includes steps to set a new PIN and the option to activate the card by opting to sign for payments initially.
       - Answer provides alternatives such as visiting a branch or contacting support if online methods are unavailable.
-    min_score: 1
+    min_score: 0.8
 
   - input: What steps do I need to follow to pay my credit card bill online?
     id: pay-credit-card-bill-online
@@ -21,7 +21,7 @@ tasks:
       - Answer details clicking on 'Make Payment' and selecting the payment amount.
       - Answer includes choosing a payment source from linked accounts.
       - Answer mentions reviewing and confirming the payment, and receiving a confirmation email.
-    min_score: 1
+    min_score: 0.8
 
   - input: I need to update my mobile number and change my security questions. How do I do both?
     id: update-mobile-and-security-questions
@@ -31,8 +31,8 @@ tasks:
       - Answer outlines the process to update the mobile number, including verification via a confirmation code.
       - Answer explains how to select and change security questions, ensuring they are memorable yet secure.
       - Answer mentions saving changes and receiving confirmation notifications for both updates.
-      - Answer advises contacting customer service if any verification steps cannot be completed online.
-    min_score: 1
+#      - Answer advises contacting customer service if any verification steps cannot be completed online.
+    min_score: 0.7
 
   - input: How do I set up an international money transfer, including selecting the currency and verifying exchange rates?
     id: setup-international-money-transfer
@@ -43,8 +43,8 @@ tasks:
       - Answer mentions selecting the transfer amount and choosing the appropriate currency.
       - Answer describes reviewing exchange rates and associated transfer fees before confirming.
       - Answer outlines the confirmation process and receiving transaction notifications via email or SMS.
-      - Answer may suggest downloading and emailing an International Money Transfer Request form as an alternative.
-    min_score: 1
+#      - Answer may suggest downloading and emailing an International Money Transfer Request form as an alternative.
+    min_score: 0.8
 
   - input: Can you guide me through managing my automatic payments and adding a new payee to my account?
     id: manage-automatic-payments-add-payee
@@ -54,8 +54,8 @@ tasks:
       - Answer outlines steps to view, modify, or cancel existing automatic payments.
       - Answer details the process to add a new payee, including entering payee details and saving them for future transactions.
       - Answer mentions reviewing and confirming changes to ensure they align with the user’s financial preferences.
-      - Answer may reference available step-by-step guides on the Acme Bank website for additional assistance.
-    min_score: 1
+#      - Answer may reference available step-by-step guides on the Acme Bank website for additional assistance.
+    min_score: 0.8
 
   - input: How do I reset my internet banking password?
     id: reset-banking-password
@@ -64,7 +64,7 @@ tasks:
       - Answer mentions that users who have verified their mobile number can reset the password online through internet banking or the mobile app.
       - Answer notes an SMS one-time code will be sent, and the user needs to answer their KeepSafe questions.
       - Answer informs users without a registered mobile number to call bank with their access number and ID used when opening the account.
-    min_score: 1
+    min_score: 0.7
 
   - input: How can I update my registered mobile number?
     id: update-registered-mobile
@@ -72,7 +72,7 @@ tasks:
       - Answer explains that users can update their mobile number in internet banking or the mobile app by following specific instructions.
       - Answer mentions that users experiencing technical problems accessing their account online should contact bank.
       - Answer states users will need to provide their access number and the ID used to open their account.
-    min_score: 1
+    min_score: 0.6
 
   - input: How can I invest in cryptocurrency through Acme Bank?
     id: negative-invest-cryptocurrency
