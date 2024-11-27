@@ -71,7 +71,7 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
-Open http://localhost:8080 to see the application.
+Open http://127.0.0.1:8080 to see the application.
 
 Try asking different questions to see how the bot handles them:
 
@@ -130,7 +130,7 @@ jupyter lab notebook.ipynb
     multinear web_dev
     ```
 
-   Open http://localhost:8000 and start experimenting.
+   Open http://127.0.0.1:8000 and start experimenting.
 
 ## License
 
