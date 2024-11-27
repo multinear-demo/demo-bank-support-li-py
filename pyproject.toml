@@ -1,0 +1,13 @@
+[project]
+name = "demo-bank-customer-support"
+version = "0.1.0"
+description = "Demo Bank Customer Support"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.115.4",
+    "llama-index>=0.11.21",
+    "python-dotenv>=1.0.1",
+    "uvicorn>=0.32.0",
+    "multinear>=0.1.0",
+]
