@@ -351,7 +351,7 @@ dependencies = [
 requires-dist = [
     { name = "fastapi", specifier = ">=0.115.4" },
     { name = "llama-index", specifier = ">=0.11.21" },
-    { name = "multinear", git = "https://github.com/multinear/multinear-tmp.git" },
+    { name = "multinear", git = "https://github.com/multinear/multinear.git" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
     { name = "uvicorn", specifier = ">=0.32.0" },
 ]
@@ -1356,7 +1356,7 @@ wheels = [
 [[package]]
 name = "multinear"
 version = "0.1"
-source = { git = "https://github.com/multinear/multinear-tmp.git#1059db4c99f88706864fe1946059476ff8a706fe" }
+source = { git = "https://github.com/multinear/multinear.git#1059db4c99f88706864fe1946059476ff8a706fe" }
 dependencies = [
     { name = "autoevals" },
     { name = "fastapi", extra = ["standard"] },
